@@ -4,9 +4,12 @@ another_list = some_list[:2] # [1, 4.5]
 new_list = some_list + another_list # Объединение списков
 
 # Методы
+# Добавление
+
 new_list.append('new element') # добавляем элемент в конец списка. Метод pop удаляет по индексу.
 new_list.insert(0, 'start') # добавляем элемент в начало списка
 
+# Удаление
 deleted_item = new_list.pop() # удаляем элемент из конца списка
 new_list.pop(-1) # удаляем элемент из конца списка
 new_list.pop(0) # удаляем элемент из начала списка
