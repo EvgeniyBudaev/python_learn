@@ -39,3 +39,14 @@ for x in range(2): # диапозон от 0 до 1
 
 for _ in range(2): # когда переменная не нужна
   print('Hello')
+
+
+sum = 0
+for x in range(10, 15): # сумма четных чисел от 10 до 14
+  if x % 2 == 0:
+    sum = sum + x
+print(sum)
+
+num = int(input('Введите Ваше число '))
+for x in range(int(num)):
+  print('Hello')
