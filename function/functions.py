@@ -85,3 +85,57 @@ def get_odd_number_list(a, b):
     odd_number_list = [number for number in number_list if number % 2 == 1]
     return odd_number_list
 
+# Математические функции
+print(abs(-1)) # 1
+print(max(1, 2, 3)) # 3 
+print(max([1, 2, 3])) # 3  
+print(min([1, 2, 3])) # 1
+print(pow(2, 3)) # 8 pow - возведение в степень  
+print(round(3.37, 1)) # 3.4 round - округление до целого. 1 - количество знаков после плавающей точки
+print(sum([1,2,3])) # 6 sum - принимает list
+h = hex(42)
+o = oct(42)
+b = bin(42)
+print(h) # 0x2a
+print(o) # 0o52
+print(b) # 0b101010
+
+# Функции с итерируемыми объектами
+# all
+all_true1 = all([True, True, True])
+all_true2 = all([True, False, True])
+print(all_true1) # True. all - возвращается boolen. Возвращает True, когда все элементы True
+print(all_true2) # False.
+players = [('Carlsen', 2842), ('Caruana', 2822)]
+print(all(rating > 2700 for _, rating in players)) # True Данная запись работает быстрее. До первого False и остановится
+print(all([rating > 2700 for _, rating in players])) # True
+
+# any - если бы хотя бы один элемент True
+any_true1 = any([True, False, True]) # True
+any_true2 = any([False, False, False]) # False
+print(any_true1) # True
+print(any_true2) # False
+
+# zip - склеивание двух итерируемых объектов. Излишние элементы отсечены
+letters = 'abcd'
+numbers = (10, 20 ,30)
+zipped = zip(letters, numbers)
+print(zipped) # <zip object at 0x7ff778090040>
+zipped_list = list(zipped)
+print(zipped_list) # [('a', 10), ('b', 20), ('c', 30)]
+
+names = ['Carlsen', 'Caruana']
+ratings = [2842, 2822]
+players = dict(zip(names, ratings))
+print(players) # {'Carlsen': 2842, 'Caruana': 2822}
+
+# input - запрос данных от пользователя
+reply = input('Введите данные ')
+print(reply)
+
+# unicode
+code =  ord('a')
+print(code) #97
+c = chr(code)
+print(c) # 'a'
+

@@ -68,3 +68,4 @@ print(list(filter(lambda number: number % 2 == 1, numbers_list))) # [1, 3]
 string_list = ['hi', 'my', 'name']
 print(list(map(lambda string: string[-1], string_list))) # ['i', 'y', 'e']
 print(list(map(lambda string: string[::-1], string_list))) # ['ih', 'ym', 'eman']
+
