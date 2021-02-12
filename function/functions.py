@@ -14,10 +14,19 @@ def print_greeting():
   '''
   print('Создали функцию!') 
 
+def greeting():
+  '''
+  DOCSTRING: information about the function
+  INPUT: no input...
+  OUTPUT: Hello!
+  '''
+  print('Hello!')   
+
 #  вызов функции
 print_greeting()
 # описание функции 
 # help(print_greeting) 
+# help(greeting)
 
 # Функция с аргументами
 def print_text_with_name(name = 'Guest'):
