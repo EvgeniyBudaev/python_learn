@@ -10,6 +10,19 @@ def devide(a, b):
 devide(4, 0)
 devide(4, 'text')
 
+# Обработка ошибки. Пример
+user_dictionary = {'first_name': 'Evgeniy', 'last_name': 'Budaev'}
+
+def get_dictionary_values(dictionary, key):
+  try:
+    return dictionary[key]
+  except KeyError:
+    return None 
+
+print(get_dictionary_values(user_dictionary, 'first_name'))
+print(get_dictionary_values(user_dictionary, 'age'))  
+print(get_dictionary_values(user_dictionary, 'last_name'))       
+
 
 # Обработка ошибки чтения файла
 file = None
@@ -54,7 +67,7 @@ def calc_square(ab, ac, bc):
 
 # square = calc_square(10, 10, 10)
 # square = calc_square(-2, 8, 8)
-# print(square)
+# print('Выброс исключений square ', square)
 
 # Кастомные исключения
 class InvalidTriangleError(Exception):
@@ -70,9 +83,11 @@ def calc_square2(ab, ac, bc):
 
   return s
 
-# try:
-#   square = calc_square2(-5, 8, 8)
-# except InvalidTriangleError as ex:
-#   print('ex: ', ex)
-# else:    
-#   print('squareInElse: ', square)
+try:
+  square = calc_square2(-5, 8, 8)
+except InvalidTriangleError as ex:
+  print('ex: ', ex)
+else:    
+  print('squareInElse: ', square)
+
+print('Программа продолжает работать')  
