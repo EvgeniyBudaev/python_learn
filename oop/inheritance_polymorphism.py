@@ -86,3 +86,50 @@ def pet_voice(pet):
 pet_voice(spike) # Spike is saying woof
 pet_voice(tom) # Tom is saying meow 
 pet_voice(freddy) # Freddy is saying nothing
+
+
+# === Shape - абстрактный класс
+class Shape():
+  def __init__(self):
+    print('Shape created')
+
+  def draw(self):
+    raise NotImplementedError("Can not instantiate an abstract class")
+
+  def area(self):
+    raise NotImplementedError("Can not instantiate an abstract class")
+
+  def perimeter(self):
+    raise NotImplementedError("Can not instantiate an abstract class")
+
+
+shape = Shape() # Shape created
+
+class Rectangle(Shape):
+  def __init__(self, width, height):
+    Shape.__init__(self)
+
+    self.width = width
+    self.height = height
+
+    print('Rectangle created')
+
+    # Shape.area(self)
+
+  def area(self):
+    return self.width * self.height
+
+  def perimeter(self):
+    return 2*(self.width + self.height)  
+
+  def draw(self):
+    print(f'Drawing rectangle with width={self.width} and height={self.height}')  
+
+
+rect = Rectangle(10 ,15) # Shape created \n Rectangle created
+print(rect.area()) # 150
+
+# Полиморфизм
+
+for shape in [rect]:
+  shape.draw() # Drawing rectangle with width=10 and height=15
