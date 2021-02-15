@@ -29,4 +29,31 @@ blogPost1 = BlogPost(user_name = 'Ivan', text = 'super man', number_of_likes = '
 blogPost2 = BlogPost(user_name = 'Petr', text = 'first', number_of_likes = 'like')
 blogPost1.number_of_likes = 'dislike'
 print(blogPost1.number_of_likes)
-print(blogPost2.number_of_likes)     
+print(blogPost2.number_of_likes)
+
+# ===
+class Character():
+  max_speed = 100
+  dead_health = 0
+
+  def __init__(self, race, damage=10, armor=20): 
+    self.race = race
+    self.damage = damage
+    self.armor = armor
+    self.health = 100
+
+  def hit(self, damage):
+    self.health -= damage 
+
+  def is_dead(self):
+    return self.health == Character.dead_health # Персонаж погиб
+
+unit = Character('Ork')
+unit.hit(20) # наносимый урон -20 
+print(unit.health) # Осталось жизни 80
+unit.hit(80) # наносимый урон -80
+print(unit.health) # Осталось жизни 0
+print(unit.is_dead()) # True. Персонаж погиб
+
+Character.max_speed = 200
+print(Character.max_speed) # max_speed меняется
