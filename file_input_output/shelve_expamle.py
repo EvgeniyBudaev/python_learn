@@ -10,6 +10,9 @@ with shelve.open('shelve_test') as cars:
 
   del cars['opel']
 
+  cars['kia'] = 'South Korea' # добавление
+  print(cars.get('kia'))
+
   for key in cars:
-    print('key: ', key)
+    print('key+value: ', key + ': ' + cars[key])
 
