@@ -13,9 +13,9 @@ html_string = """
   <h3>Programming Languages</h3>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, doloremque.</p>
   <ol>
-    <li>HTML</li>
+    <li class="list__item">HTML</li>
     <li id="css-li">CSS</li>
-    <li>JavaScript</li>
+    <li class="list__item">JavaScript</li>
     <li class="list__item">Python</li>
   </ol>
   
