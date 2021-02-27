@@ -12,6 +12,7 @@ CREATE TABLE employees (
 
 -- Create
 INSERT INTO students(first_name, last_name, age) VALUES ("Jack", "White", "18");
+INSERT INTO students(first_name, last_name, age) VALUES ("Jim", "Hopkins", "32");
 INSERT INTO employees(first_name, last_name, age) VALUES ("Jane", "Black", "20");
 
 -- Read
@@ -27,5 +28,10 @@ SELECT first_name FROM students WHERE first_name LIKE "Ja%";
 SELECT * FROM students WHERE first_name LIKE "%ck" OR last_name LIKE "%ck";
 SELECT * FROM students WHERE first_name LIKE "%an%"
 
+-- Update
+UPDATE students SET first_name="Jimmi" WHERE first_name="Jim"
+UPDATE students SET age=19 WHERE first_name="Jim" OR last_name="Hopkins" 
+
 -- Delete
-DROP TABLE table_name; 
+DROP TABLE table_name;
+DELETE FROM students WHERE age=20 
