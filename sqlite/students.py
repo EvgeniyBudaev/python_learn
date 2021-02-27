@@ -40,5 +40,23 @@ for student in students:
 cursor.executemany(insert_query, students)  
 
 
+# Чтение, редактирование и удаление данных при помощи Python
+cursor.execute("SELECT * FROM students WHERE first_name IS 'Oleg';")
+# 1 спобоб чтения
+for row in cursor:
+  print(row)
+# 2 способ чтения
+print(cursor.fetchone()) # одна запись
+print(cursor.fetchall()) # извлечь все записи 
+
+# Редактирование
+cursor.execute("UPDATE students SET age = 18 WHERE first_name IS 'Oleg';")
+data = cursor.fetchall()
+cursor.execute("SELECT * FROM students;")
+[print(row) for row in data]
+
+# Удаление
+cursor.execute("DELEte FROM students WHEre last_name IS 'Morozova";)
+
 conn.commit()                  
 conn.close()
