@@ -56,7 +56,7 @@ with requests.Session() as session:
   response = session.get("https://api.github.com/user")
 print(response.json())  
 
-# === прописать количество повторений дял запроса, если он провалился
+# === прописать количество повторений для запроса, если он провалился
 from requests.adapters import HTTPAdapter
 adapter = HTTPAdapter(max_retries=3) # 3 - количество попыток создать запрос
 with requests.Session() as session:
