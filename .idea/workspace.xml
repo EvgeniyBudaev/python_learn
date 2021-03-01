@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd49a9d0-9b20-43ba-940b-624a11b77f59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_3_8/walrus_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_3_8/typing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +30,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Python.walrus_operator">
+  <component name="RunManager" selected="Python.typing">
     <configuration name="dataclasses_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,6 +48,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/options/dataclasses_intro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="typing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_3_8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_3_8/typing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.typing" />
         <item itemvalue="Python.walrus_operator" />
         <item itemvalue="Python.dataclasses_intro" />
       </list>
@@ -93,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613837349678</updated>
       <workItem from="1613837350770" duration="60000" />
-      <workItem from="1614599966696" duration="3212000" />
+      <workItem from="1614599966696" duration="3969000" />
+      <workItem from="1614605306490" duration="1358000" />
     </task>
     <servers />
   </component>
@@ -110,9 +135,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_learn$dataclasses_intro.coverage" NAME="dataclasses_intro Coverage Results" MODIFIED="1614603569000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/options" />
     <SUITE FILE_PATH="coverage/python_learn$walrus_operator.coverage" NAME="walrus_operator Coverage Results" MODIFIED="1614604325306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
+    <SUITE FILE_PATH="coverage/python_learn$typing.coverage" NAME="typing Coverage Results" MODIFIED="1614606334518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
   </component>
 </project>
