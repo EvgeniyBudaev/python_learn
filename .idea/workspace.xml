@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd49a9d0-9b20-43ba-940b-624a11b77f59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/01_problem_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/orm_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/02_foreground_background_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/count_three_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multyAsyncParallel/multithreading/01_problem_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/01_problem_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
       <workItem from="1614599966696" duration="3969000" />
       <workItem from="1614605306490" duration="1358000" />
       <workItem from="1614737598738" duration="6676000" />
-      <workItem from="1614823354684" duration="1488000" />
+      <workItem from="1614823354684" duration="3078000" />
     </task>
     <servers />
   </component>
@@ -169,7 +167,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_learn$dataclasses_intro.coverage" NAME="dataclasses_intro Coverage Results" MODIFIED="1614603569000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/options" />
     <SUITE FILE_PATH="coverage/python_learn$typing.coverage" NAME="typing Coverage Results" MODIFIED="1614606334518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
-    <SUITE FILE_PATH="coverage/python_learn$01_problem_demo.coverage" NAME="01_problem_demo Coverage Results" MODIFIED="1614825068681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
+    <SUITE FILE_PATH="coverage/python_learn$01_problem_demo.coverage" NAME="01_problem_demo Coverage Results" MODIFIED="1614825331823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
     <SUITE FILE_PATH="coverage/python_learn$walrus_operator.coverage" NAME="walrus_operator Coverage Results" MODIFIED="1614604325306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
   </component>
 </project>
