@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd49a9d0-9b20-43ba-940b-624a11b77f59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter_db_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/01_problem_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multyAsyncParallel/multithreading/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orm_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -36,7 +37,29 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Python.typing">
+  <component name="RunManager" selected="Python.01_problem_demo">
+    <configuration name="01_problem_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multyAsyncParallel/multithreading/01_problem_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dataclasses_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_problem_demo" />
         <item itemvalue="Python.typing" />
         <item itemvalue="Python.walrus_operator" />
         <item itemvalue="Python.dataclasses_intro" />
@@ -122,7 +146,8 @@
       <workItem from="1613837350770" duration="60000" />
       <workItem from="1614599966696" duration="3969000" />
       <workItem from="1614605306490" duration="1358000" />
-      <workItem from="1614737598738" duration="3678000" />
+      <workItem from="1614737598738" duration="6676000" />
+      <workItem from="1614823354684" duration="1488000" />
     </task>
     <servers />
   </component>
@@ -144,6 +169,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_learn$dataclasses_intro.coverage" NAME="dataclasses_intro Coverage Results" MODIFIED="1614603569000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/options" />
     <SUITE FILE_PATH="coverage/python_learn$typing.coverage" NAME="typing Coverage Results" MODIFIED="1614606334518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
+    <SUITE FILE_PATH="coverage/python_learn$01_problem_demo.coverage" NAME="01_problem_demo Coverage Results" MODIFIED="1614825068681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
     <SUITE FILE_PATH="coverage/python_learn$walrus_operator.coverage" NAME="walrus_operator Coverage Results" MODIFIED="1614604325306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
   </component>
 </project>
