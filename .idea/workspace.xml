@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd49a9d0-9b20-43ba-940b-624a11b77f59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/base/file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/base/test_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/test_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/yandex_test/unittest/methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/test_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/yandex_test/unittest/calculator/test_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +43,7 @@
       <recent name="$PROJECT_DIR$/test/yandex_test/unittest/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for methods.TestExample">
+  <component name="RunManager" selected="Python tests.Unittests for test_calculator.TestCalc">
     <configuration name="Unittests for methods.TestExample" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,7 +59,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_calculator.TestCalc.test_square" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_calculator.TestCalc" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +70,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_calculator.TestCalc.test_square&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.TestCalc&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -96,18 +89,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_one.TestSeriesSum.test_mixed_numbers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_calculator.TestCalc.test_summ_no_argument" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/yandex_test/unittest/base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/yandex_test/unittest/calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_one.TestSeriesSum.test_mixed_numbers&quot;" />
+      <option name="_new_target" value="&quot;test_calculator.TestCalc.test_summ_no_argument&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -128,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_calculator.TestCalc" />
+        <item itemvalue="Python tests.Unittests for test_calculator.TestCalc.test_summ_no_argument" />
         <item itemvalue="Python tests.Unittests for methods.TestExample" />
         <item itemvalue="Python tests.Unittests for test_calculator.TestCalc.test_summ" />
         <item itemvalue="Python tests.Unittests in test_calculator.py" />
-        <item itemvalue="Python tests.Unittests for test_calculator.TestCalc.test_square" />
-        <item itemvalue="Python tests.Unittests for test_one.TestSeriesSum.test_mixed_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +148,7 @@
       <workItem from="1621963002075" duration="1553000" />
       <workItem from="1621993849495" duration="5704000" />
       <workItem from="1622010766590" duration="474000" />
-      <workItem from="1622077660549" duration="2028000" />
+      <workItem from="1622077660549" duration="3766000" />
     </task>
     <servers />
   </component>
@@ -177,7 +170,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_learn$typing.coverage" NAME="typing Coverage Results" MODIFIED="1614606334518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_3_8" />
     <SUITE FILE_PATH="coverage/python_learn$assert_intro.coverage" NAME="assert_intro Coverage Results" MODIFIED="1621994280729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test" />
+    <SUITE FILE_PATH="coverage/python_learn$Unittests_for_test_calculator_TestCalc_test_summ_no_argument.coverage" NAME="Unittests for test_calculator.TestCalc.test_summ_no_argument Coverage Results" MODIFIED="1622081078492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test/unittest/calculator" />
     <SUITE FILE_PATH="coverage/python_learn$Unittests_for_test_one_TestSeriesSum_test_mixed_numbers.coverage" NAME="Unittests for test_one.TestSeriesSum.test_mixed_numbers Coverage Results" MODIFIED="1622078738109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test/unittest/base" />
+    <SUITE FILE_PATH="coverage/python_learn$Unittests_for_methods_TestExample.coverage" NAME="Unittests for methods.TestExample Coverage Results" MODIFIED="1622079709507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test/unittest" />
     <SUITE FILE_PATH="coverage/python_learn$assert_for_classes.coverage" NAME="assert_for_classes Coverage Results" MODIFIED="1621998201137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test" />
     <SUITE FILE_PATH="coverage/python_learn$dataclasses_intro.coverage" NAME="dataclasses_intro Coverage Results" MODIFIED="1614603569000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/options" />
     <SUITE FILE_PATH="coverage/python_learn$manual_test.coverage" NAME="manual_test Coverage Results" MODIFIED="1621963551701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test" />
@@ -187,6 +182,7 @@
     <SUITE FILE_PATH="coverage/python_learn$Unittests_for_test_calculator_TestCalc_test_square.coverage" NAME="Unittests for test_calculator.TestCalc.test_square Coverage Results" MODIFIED="1622079254143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test/unittest/calculator" />
     <SUITE FILE_PATH="coverage/python_learn$Unittests_for_test_calculator_TestCalc_test_summ.coverage" NAME="Unittests for test_calculator.TestCalc.test_summ Coverage Results" MODIFIED="1622079599622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test/unittest/calculator" />
     <SUITE FILE_PATH="coverage/python_learn$04_thread_pool_submit.coverage" NAME="04_thread_pool_submit Coverage Results" MODIFIED="1614831417119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
+    <SUITE FILE_PATH="coverage/python_learn$Unittests_for_test_calculator_TestCalc.coverage" NAME="Unittests for test_calculator.TestCalc Coverage Results" MODIFIED="1622081452520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test/unittest/calculator" />
     <SUITE FILE_PATH="coverage/python_learn$03_seq_vs_paralle.coverage" NAME="03_seq_vs_paralle Coverage Results" MODIFIED="1614829681460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
     <SUITE FILE_PATH="coverage/python_learn$test_invertor.coverage" NAME="test_invertor Coverage Results" MODIFIED="1622000715600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/yandex_test" />
     <SUITE FILE_PATH="coverage/python_learn$01_problem_demo.coverage" NAME="01_problem_demo Coverage Results" MODIFIED="1614825331823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multyAsyncParallel/multithreading" />
